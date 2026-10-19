@@ -1,4 +1,4 @@
-# Chapter 1: Introduction to Digital Electronics
+# Introduction to Digital Electronics
 
 **Source:** ChipVerify - Digital Fundamentals
 

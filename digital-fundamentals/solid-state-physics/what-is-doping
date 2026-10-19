@@ -1,0 +1,92 @@
+# What is Doping?
+**Source:** ChipVerify - Digital Fundamentals
+
+**Status:** 
+
+---
+
+## Learning Objectives
+
+- [ ] Why pure silicon is almost useless for building circuits
+- [ ] How phosphorus creates n-type silicon and boron creates p-type silicon
+- [ ] What a hole is and why it behaves like a positive carrier
+- [ ] How doping level controls resistance, and where the proportion rule breaks down
+
+---
+
+## My Answers
+
+### 1. Why is pure silicon almost useless for building circuits?
+
+My Answer:
+
+Pure silicon has very few free charge carriers, making it difficult for electricity to flow. Doping allows us to increase and control its conductivity.
+
+### 2. How does phosphorus create n-type silicon, and how does boron create p-type silicon?
+
+My Answer:
+
+Phosphorus has 5 valence electrons, so when added to silicon, it provides an extra free electron, creating n-type silicon. Boron has only 3 valence electrons, so it creates holes, resulting in p-type silicon.
+
+### 3. What is a hole, and why does it behave like a positive charge carrier?
+
+My Answer:
+
+A hole is a missing electron in the valence band. It behaves like a positive charge carrier because electrons move to fill these holes, causing the holes to effectively move in the opposite direction of electron flow.
+
+### 4. How does doping concentration affect resistance, and where does the proportional relationship break down?
+
+My Answer: 
+
+Heavy doping generally decreases resistance because it increases the number of charge carriers. Light doping results in higher resistance because fewer charge carriers are available. However, at high doping levels, carrier mobility decreases due to impurity scattering, so resistance no longer decreases at the same proportional rate.
+
+---
+
+## Practice Exercise
+
+### A region of silicon starts with 1 × 1017 boron atoms per cm3. Assume room temperature and that electrons × holes = 1020 per cm6.
+
+#### 1. What type is it, and how many electrons and holes does it have?
+
+*My Answer:*
+
+P-type, holes     = 1e17, electrons = 1e3
+
+#### 2. A second implant adds 3 × 1017 phosphorus atoms per cm3 to the same region. What type is it now, and how many electrons and holes does it have?
+
+*My Answer:*
+
+n-type, electrons = 2e17, holes     = 5e2
+#### 3. Which state has lower resistance, and why?
+
+*My Answer:*
+
+The n-type state has lower resistance:
+   - it has twice as many majority carriers (2e17 vs 1e17)
+   - its majority carriers are electrons, which are ~3x more mobile  
+---
+
+## Summary
+
+- Pure silicon has too few carriers, and their number depends only on temperature
+
+- Phosphorus (5 outer electrons) donates a free electron and creates n-type silicon
+
+- Boron (3 outer electrons) creates a hole, a mobile missing electron that behaves as a positive carrier
+
+- More dopant gives proportionally more majority carriers and lower resistance, with diminishing returns at very high doping
+
+- Raising the majority carrier count lowers the minority carrier count by the same factor
+
+- Electrons are about 3× more mobile than holes, which is why PMOS devices are drawn wider
+
+---
+
+## Chapter Review
+
+**Can I explain these concepts without looking?**
+
+- [ ] Yes, I understand everything.
+- [x] I need to review some concepts.
+
+**Date Completed:** 10/19/2026

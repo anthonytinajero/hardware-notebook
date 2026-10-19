@@ -1,0 +1,90 @@
+# Conductors, Insulators, and Semi-Conductors
+**Source:** ChipVerify - Digital Fundamentals
+
+**Status:** Completed
+
+---
+
+## Learning Objectives
+
+- [ ] What is the difference between the valence band and the conduction band?
+- [ ] Why copper conducts freely and silicon dioxide does not
+- [ ] How the band gap sets a material's behaviour, using proportions instead of equations
+- [ ] Where each material class appears on a real chip
+
+---
+
+## My Answers
+
+### 1. What is the difference between the valence band and the conduction band?
+
+My Answer:
+
+The valence band is the energy range of electrons that are tied up in bonds between neighbouring atoms. These electrons hold the crystal together and cannot wander.
+
+### 2. Why does copper conduct electricity easily while silicon dioxide (SiO₂) does not?
+
+My Answer:
+
+Copper conducts electricity easily because it has no band gap preventing electrons from accessing nearby available energy states, allowing them to move freely. Silicon dioxide has a very large band gap, making it difficult for electrons to enter the conduction band and conduct electricity.
+
+### 3. What is a band gap, and how does its relative size determine whether a material behaves as a conductor, semiconductor, or insulator?
+
+My Answer:
+
+A band gap is a forbidden range of energy between the valence band and conduction band. The larger the band gap, the more energy an electron needs to reach the conduction band. Conductors have no band gap preventing conduction, semiconductors have relatively small band gaps, and insulators have large band gaps.
+
+### 4. Where are conductors, semiconductors, and insulators used in a modern semiconductor chip?
+
+My Answer: 
+
+Conductors, such as copper, are used as wiring to connect components and carry electrical signals and power. Semiconductors, such as silicon, are used to construct transistors that act as electrical switches. Insulators, such as silicon dioxide, are used to electrically separate components and prevent unwanted current flow.
+
+---
+
+## Practice Exercise
+
+### 1. A layer that must stop any current flowing between two stacked wires
+
+**My Solution:**
+
+Silicon dioxide - large band gap (~9 eV), effectively zero free carriers, so it blocks current between wires.
+
+### 2. A switch that must turn ON and OFF billions of times per second in dense logic
+
+**My Answer:**
+
+Silicon - moderate band gap (~1.12 eV). Few free carriers at rest, but the count can be raised on command, which makes a switch possible. It is also cheap to manufacture at very high density.
+
+### 3. A power switch in a charger that runs hot and blocks several hundred volts
+
+**My Answer:**
+
+Gallium nitride - wide band gap (~3.4 eV). Leakage stays low even when hot, and the material withstands high voltages.
+  
+---
+
+## Summary
+
+- Conduction depends on free carriers, not on how many electrons a material has in total
+
+- The valence band holds bonded electrons; the conduction band holds free ones
+
+- The band gap is the energy step between them: no gap for metals, a moderate gap for semiconductors, a large gap for insulators
+
+- Free carrier count falls steeply as the band gap grows - roughly 7× fewer for every extra 0.1 eV at room temperature
+
+- Silicon's value lies in controllable conductivity, which is what makes transistors possible
+
+- Heat raises metal resistance but lowers semiconductor resistance, which is the root of leakage
+
+---
+
+## Chapter Review
+
+**Can I explain these concepts without looking?**
+
+- [ ] Yes, I understand everything.
+- [x] I need to review some concepts.
+
+**Date Completed:** 08/17/2026
